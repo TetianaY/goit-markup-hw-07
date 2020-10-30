@@ -1,5 +1,5 @@
 .team {
-  background-color: var(--secondary-background-color);
+  background-color: $secondary-background-color;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -22,7 +22,7 @@
 }
 
 .name-position {
-  background-color: var(--primary-background-color);
+  background-color: $primary-background-color;
 
   padding-top: 30px;
   padding-bottom: 30px;
@@ -42,7 +42,7 @@
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 
 .position {
@@ -54,5 +54,5 @@
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }

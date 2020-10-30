@@ -1,5 +1,5 @@
 .footer {
-  background: var(--dark-background-color);
+  background: $dark-background-color;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -11,7 +11,7 @@
 }
 
 .footer .logo__item {
-  color: var(--white-text-color);
+  color: $white-text-color;
 }
 
 .address {
@@ -22,7 +22,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--white-text-color);
+  color: $white-text-color;
 }
 
 .address .link {
@@ -45,7 +45,7 @@
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .footer-social-list {
@@ -89,7 +89,7 @@
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .footer-social-list .social-list__link:hover .social-list-svg,

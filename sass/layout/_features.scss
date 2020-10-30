@@ -19,7 +19,7 @@
   display: block;
   width: 270px;
   height: 120px;
-  background-color: var(--secondary-background-color);
+  background-color: $secondary-background-color;
   background-image: url("../images/studio/features/antenna\ 1.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -32,7 +32,7 @@
   display: block;
   width: 270px;
   height: 120px;
-  background-color: var(--secondary-background-color);
+  background-color: $secondary-background-color;
   background-image: url("../images/studio/features/clock\ 1.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -45,7 +45,7 @@
   display: block;
   width: 270px;
   height: 120px;
-  background-color: var(--secondary-background-color);
+  background-color: $secondary-background-color;
   background-image: url("../images/studio/features/diagram\ 1.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -58,7 +58,7 @@
   display: block;
   width: 270px;
   height: 120px;
-  background-color: var(--secondary-background-color);
+  background-color: $secondary-background-color;
   background-image: url("../images/studio/features/astronaut\ 1.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -69,5 +69,5 @@
 .features .subtitle {
   margin-top: 30px;
   margin-bottom: 10px;
-  color: var(--title-text-color);
+  color: $title-text-color;
 }

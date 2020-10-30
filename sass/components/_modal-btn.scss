@@ -1,6 +1,6 @@
 .modal-btn {
   display: inline-block;
-  background: var(--accent-color);
+  background: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 10px 32px;
@@ -11,5 +11,5 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--white-text-color);
+  color: $white-text-color;
 }

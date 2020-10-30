@@ -21,7 +21,7 @@
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .social-list__link:hover .social-list-svg,

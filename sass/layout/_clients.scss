@@ -29,7 +29,7 @@
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
 }
 
 .clients-list__link:hover .clients-list__svg,
@@ -37,5 +37,5 @@
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  fill: var(--accent-color);
+  fill: $accent-color;
 }

@@ -39,11 +39,11 @@
 .modal-comment:hover,
 .modal-comment:focus {
   outline: none;
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 .modal-input:hover + .modal-form-svg,
 .modal-input:focus + .modal-form-svg {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 .modal-field-wrapper {
   position: relative;
@@ -89,7 +89,7 @@
   color: var(--main-text-color);
 }
 .modal-policy {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .modal-btn-submit {
@@ -118,11 +118,11 @@
   cursor: pointer;
 }
 .modal-policy-input:checked + .modal-policy-field::before {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  background-color: $accent-color;
+  border-color: $accent-color;
   background-image: url(../images/svg/accept.svg);
 }
 .modal-policy-input:focus + .modal-policy-field::before,
 .modal-policy-input:hover + .modal-policy-field::before {
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
