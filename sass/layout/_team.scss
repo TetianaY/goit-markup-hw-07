@@ -2,23 +2,22 @@
   background-color: $secondary-background-color;
   padding-top: 94px;
   padding-bottom: 94px;
-}
 
-.team .container {
-  padding-left: 0px;
-  padding-right: 0px;
-}
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
-.team-list {
-  display: flex;
-}
+  &-list {
+    display: flex;
 
-.team-list__item {
-  width: calc((100%-90px) / 4);
-}
-
-.team-list__item:not(:last-child) {
-  margin-right: 30px;
+    &__item {
+      width: calc((100%-90px) / 4);
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+  }
 }
 
 .name-position {

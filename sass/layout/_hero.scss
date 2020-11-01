@@ -3,26 +3,26 @@
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-}
 
-.hero-bg {
-  margin: 0 auto;
-  max-width: 1600px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/studio/hero/bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  &-bg {
+    margin: 0 auto;
+    max-width: 1600px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/studio/hero/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-.hero-title {
-  margin-top: 0px;
-  margin-bottom: 30px;
+  &-title {
+    margin-top: 0px;
+    margin-bottom: 30px;
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: $white-text-color;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $white-text-color;
+  }
 }
 
 .backdrop {
@@ -33,16 +33,16 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   transition: all 500ms linear;
-}
 
-.backdrop.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  transition: all 500ms linear 500ms;
-}
+  &.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all 500ms linear 500ms;
 
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0);
-  transition: all 500ms linear 0ms;
+    .modal {
+      transform: translate(-50%, -50%) scale(0);
+      transition: all 500ms linear 0ms;
+    }
+  }
 }

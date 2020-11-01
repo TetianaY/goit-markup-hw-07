@@ -5,7 +5,6 @@
 // base
 @import "./base/common";
 @import "./base/container";
-@import "./base/section";
 
 // components
 
@@ -13,13 +12,11 @@
 @import "./components/logo";
 @import "./components/tel-mail";
 @import "./components/title";
-@import "./components/subtitle";
-@import "./components/description";
 @import "./components/portfolio";
 @import "./components/portfolio-title";
+@import "./layout/portfolio-list";
 
 // layouts
 @import "./layout/header";
 @import "./layout/filter";
-@import "./layout/portfolio-list";
 @import "./layout/footer";
