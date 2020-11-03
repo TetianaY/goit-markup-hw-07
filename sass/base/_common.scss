@@ -12,7 +12,7 @@ body {
   background-color: $primary-background-color;
   color: $primary-text-color;
 
-  font-family: "Roboto", sans-serif;
+  font-family: $main-font;
   /*font-style: normal;*/
 }
 
@@ -30,4 +30,26 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  &-title.centred {
+    text-align: center;
+  }
+
+  &.nopadding {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }
